@@ -1,0 +1,83 @@
+body{
+    background-image: url(../img/background.jpg);
+}
+.wrapper{
+    height: 1500px;
+    width: 100%;
+}
+header{
+    height: 12%;
+    width: 100%;
+    display: flex;
+}
+.MenuHeader{
+    width: 55%;
+}
+.MenuLogin{
+    width: 25%;
+    
+}
+input#input{
+    position: absolute;
+    right: 50px;
+    top:50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+img#logo{
+    height: 90px;
+    width: 20%;
+    float: left;
+}
+.menu-login li a {
+    color: black;
+    text-decoration: none;
+   
+    display: inline;
+    padding: 18px 17px;
+}
+.menu-login{
+    display: flex;
+}
+.topMenu  li a{
+    padding: 18px 17px;
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+.topMenu {
+    display: flex;
+}
+footer{
+    background-color:white;
+    height: 18%;
+    display: flex;
+    color: black;
+    
+    width: 100%;
+}
+.content{
+    height:70%;
+}
+.buttom-Menu1{
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 35%;
+    margin-left: 10px;
+}
+.buttom-Menu2{
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 30%;
+}
+.buttom-Menu3{
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 35%;
+}
